@@ -1,0 +1,61 @@
+@media screen and (max-width: 1168px) {
+    h1 {
+        color: #DC2428;
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-weight: 300;
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #2E2E2E;
+    }
+
+    .woman-image {
+        width: 563px;
+        z-index: 2;
+    }
+
+    .headBlockContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 1179px) {
+    .itemCont {
+        width: 800px;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    .text-item {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 967px) {
+    .photo {
+        width: 132px;
+
+    }
+
+    .review {
+        min-height: 200px;
+    }
+
+    .info p {
+        width: 90%;;
+    }
+}

@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary_color: #F7F1DF;
+    --bg_color: #F7F1DF;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+}
+
+.container {
+    width: 1162px;
+    max-width: 90%;
+
+    margin: 0 auto;
+
+    display: inherit;
+    justify-content: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    gap: inherit;
+}
+
+
+
+h1,
+h2,
+h3 {
+    font-family: 'DM Sans';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg_color);
+}
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-right: 5px;
+}
+
+header .logo {
+    width: 110px;
+    height: 110px;
+    background-position: center center;
+    background-image: url('./img/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    display: flex;
+    gap: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    list-style: none;
+    z-index: 99;
+    background-color: var(--bg_color);
+}
+
+header nav a {
+    color: #644B2C;
+    text-decoration: none;
+}
+
+.headBlockContainer {
+    display: flex;
+    justify-content: space-between;
+    /* kod */
+    margin-top: 160px;
+    /* margin-left: 100px; */
+}
+
+.banner {
+    width: 450px;
+    /* kod */
+}
+
+.headBlockContainer .images {
+    width: 550px;
+    /* kod */
+}
+
+.woman-image {
+    /* kod */
+    width: 617px;
+    /* Установите нужный размер для изображения женщины */
+
+    /* Сохраняем пропорции */
+
+    z-index: 2;
+    /* Устанавливаем на передний план */
+}
+
+.container {
+    text-align: left;
+    /* Выравнивание текста по левому краю */
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1 {
+    color: #DC2428;
+    /* Красный цвет для h1 */
+    font-size: 48px;
+    /* Размер шрифта 48px */
+    font-weight: 600;
+    /* Вес шрифта 700 */
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 300;
+    /* Вес шрифта 400 для h3 */
+    font-size: 20px;
+    /* Размер шрифта 20px */
+    margin-bottom: 20px;
+    color: #2E2E2E;
+}
+
+button.lol {
+    width: 263px;
+    /* Ширина кнопки */
+    height: 58px;
+    /* Высота кнопки */
+    border-radius: 5px;
+    /* Радиус скругления */
+    background-color: #DC2428;
+    /* Красный цвет кнопки */
+    color: white;
+    /* Цвет текста кнопки */
+    border: none;
+    /* Убираем границу */
+    cursor: pointer;
+    /* Курсор при наведении */
+    font-size: 21px;
+    /* Размер шрифта кнопки (можно изменить) */
+}
+
+
+
+
+.rectangle {
+    /* kod */
+    width: 1162px;
+    /* Ширина прямоугольника */
+    max-width: 100%;
+    min-height: 206px;
+    /* Высота прямоугольника */
+    background-color: white;
+    /* Цвет фона */
+    position: relative;
+    z-index: 0;
+    /* Устанавливаем на задний план */
+    display: flex;
+    /* Используем flexbox для центрирования */
+    align-items: center;
+    /* Выравниваем по вертикали по центру */
+    justify-content: center;
+    /* Выравниваем по горизонтали по центру */
+    margin-bottom: -100px;
+    padding: 10px 30px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 916px;
+    /* kod */
+}
+
+.stat-item {
+    /* kod */
+    display: flex;
+    flex-direction: column;
+    /* Изменяем направление на колонку для каждой пары */
+    align-items: center;
+    /* Центрируем элементы по горизонтали */
+    margin: 0 10px;
+    /* Добавляем отступы между элементами */
+}
+
+
+.number {
+    font-weight: 700;
+    /* Жирный шрифт */
+    font-size: 52px;
+    /* Размер шрифта */
+    line-height: 100%;
+    /* Высота строки */
+    margin-top: 35px;
+}
+
+.label {
+    font-weight: 500;
+    /* Жирный шрифт */
+    font-size: 20px;
+    /* Размер шрифта */
+    line-height: 130%;
+    /* Высота строки */
+    margin-top: 15px;
+}
+
+.divider {
+    width: 2px;
+    height: 72px;
+    /* Высота делителя */
+    background-color: #7E623C;
+    /* Цвет делителя */
+    margin: 0 10px;
+    /* Отступы вокруг делителя */
+}
+
+
+.itemCont {
+    width: 1163px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    /* kod */
+}
+
+.text-blocks {
+    width: 1163px;
+    max-width: 100%;
+    min-height: 493px;
+    display: flex;
+    flex-direction: column;
+    /* kod */
+}
+
+.text-item {
+    width: 347px;
+    /* Фиксированная ширина блока */
+    height: 215px;
+    /* Фиксированная высота блока */
+    background-color: white;
+    /* Белый фон для каждого блока */
+
+    box-sizing: border-box;
+    /* Учитываем отступы в ширине */
+    border-radius: 5px;
+    /* Закругление краев блока */
+    padding: 30px;
+    /* Отступы внутри блока */
+    position: relative;
+    /* Устанавливаем позицию для абсолютного позиционирования дочерних элементов */
+}
+
+.text-item h4 {
+    font-family: 'Roboto', sans-serif;
+    /* Подключаем шрифт Roboto */
+    font-weight: 700;
+    /* Жирный шрифт */
+    font-size: 22px;
+    /* Размер шрифта */
+    margin: 0;
+    /* Убираем отступы у заголовка */
+    margin-top: 20px;
+    width: 161px;
+}
+
+.text-item img {
+    margin-right: 20px;
+}
+
+.red {
+    color: #DC2428;
+    /* Красный цвет для заголовков с классом red */
+}
+
+.text-item * {
+    float: left;
+    display: block;
+}
+
+.about {
+    background-color: #E4D0B4;
+    /* Цвет фона для контейнера */
+
+}
+
+.treatments-title {
+    font-family: 'DM Sans', sans-serif;
+    /* Шрифт DM Sans */
+    font-weight: 600;
+    /* Жирный шрифт */
+    font-size: 45px;
+    /* Размер шрифта 36px */
+    color: #DC2428;
+    /* Цвет текста (можно изменить) */
+    margin-bottom: 20px;
+    /* Отступ снизу для разделения с блоками */
+    margin-top: 80px;
+    margin-left: -40px;
+    text-align: center;
+    /* Выравнивание по центру (по желанию) */
+}
+
+.treatments-container {
+    padding: 20px;
+    /* Отступы вокруг заголовка (по желанию) */
+    text-align: center;
+    /* Выравнивание текста по центру (по желанию) */
+}
+
+.xz {
+    background-color: #FCF8F5;
+    display: flex;
+
+}
+
+.image-container {
+    /* kod */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.image-container img {
+    /* kod */
+    height: auto;
+    width: 399px;
+}
+
+.TrCont {
+    width: 1162px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /* kod */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    min-height: 533px;
+    max-width: 100%;
+    padding: 5px;
+    /* kod */
+
+}
+
+.xz .container .text-container h1 {
+    /* kod */
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.in-wrap {
+    width: 660px;
+    max-width: 100%;
+    padding: 5px;
+    /* kod */
+}
+
+.procedureCont {
+    width: 1162px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* kod */
+}
+
+.procedureCont img {
+    width: 390px;
+    max-width: 100%;
+    height: auto;
+    /* kod */
+}
+
+.xz .container .text-container p {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    /* kod */
+}
+
+.xz .container .text-container h5 {
+    margin-top: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    /* kod */
+}
+
+.mt {
+    margin-top: 20px;
+    /* kod */
+}
+
+.text-container button {
+    width: 263px;
+    height: 58px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    margin-top: 15px;
+
+    border-radius: 5px;
+    /* Радиус скругления */
+    background-color: #DC2428;
+    /* Красный цвет кнопки */
+    border: none;
+    /* Убираем границу */
+    cursor: pointer;
+    /* Курсор при наведении */
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.procedure-process {
+    background-color: #FFFFFF;
+    padding: 80px 0;
+    display: flex;
+
+}
+
+.procedure-process details {
+
+    /* Устанавливает ширину */
+    max-width: 100%;
+    border: 1px solid #B2B2B2;
+    padding: 24px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.procedure-process ol {
+    list-style: none;
+}
+
+.procedure-process details {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+details {
+    border-radius: 4px;
+    position: relative;
+    z-index: 10;
+}
+
+.down summary {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.down p {
+    margin-bottom: 10px;
+}
+
+.qqq {
+    /*не трогать*/
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #404040;
+}
+
+.prep-li:not(:last-of-type) {
+    /*не трогать*/
+    margin-bottom: 20px;
+}
+
+.procedure-process summary {
+    list-style: none;
+    /* Убирает стандартную стрелку */
+    cursor: pointer;
+    /* Меняет курсор, чтобы указать, что элемент кликабельный */
+    position: relative;
+    /* Для позиционирования пользовательской стрелки */
+}
+
+.procedure-process summary::after {
+    content: '';
+    /* Добавляет пользовательскую стрелку */
+    position: absolute;
+    right: 15px;
+    /* Настраивает позицию стрелки справа */
+    top: 15%;
+    /* Центрирует по вертикали */
+    transform: translateY(-50%);
+    /* Корректирует вертикальное положение */
+    width: 12px;
+    /* Ширина стрелки */
+    height: 12px;
+    /* Высота стрелки */
+    border: solid #DC2428;
+    /* Цвет стрелки */
+    border-width: 0 2px 2px 0;
+    /* Создает форму стрелки */
+    transform: rotate(45deg);
+    /* Поворачивает для формирования стрелки */
+}
+
+.procedure-process details[open] summary::after {
+    transform: translateY(-50%) rotate(-135deg);
+    /* Поворачивает стрелку, когда элемент открыт */
+}
+
+.container img {
+    margin-left: auto;
+}
+
+.reviews-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    /* Отступ сверху и снизу */
+    position: relative;
+    /* Позволяет стрелкам позиционироваться относительно контейнера */
+}
+
+.reviews {
+    display: flex;
+    transition: transform 0.5s ease;
+    /* Плавный переход при смене отзывов */
+}
+
+.review {
+    width: 451px;
+    max-width: 100%;
+    min-height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    margin: 0 21px;
+    align-items: center;
+}
+
+.photo {
+    width: 172px;
+    max-width: 100%;
+    /* Установите ширину фотографии */
+    height: fit-content;
+    /* Установите высоту фотографии */
+    border-radius: 8px;
+    /* Скругление углов */
+    margin-right: 10px;
+    /* Отступ справа от фотографии */
+    /* margin-top: 24px; */
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.info h3 {
+    font-weight: bold;
+}
+
+.indicatorsFlex h2 {
+    color: #DC2428;
+    font-size: 36px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 50px;
+    user-select: none;
+    padding: 10px;
+    color: #DC2428;
+    z-index: 1;
+    /* Убедитесь, что стрелки находятся выше других элементов */
+    border-radius: 80%;
+    /* Скругление углов */
+    transition: background-color 0.3s;
+    /* Плавный переход цвета фона */
+}
+
+.indicatorsFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 960px;
+    max-width: 100%;
+    min-height: 320px;
+}
+
+.indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* Отступ сверху */
+}
+
+.indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* Круглая форма */
+    background-color: #DC2428;
+    /* Красный цвет */
+    margin: 0 5px;
+    /* Отступы между кругами */
+    opacity: 0.5;
+    /* Начальная прозрачность */
+    transition: opacity 0.3s;
+    /* Плавный переход прозрачности */
+}
+
+.indicator.active {
+    opacity: 1;
+    /* Полная непрозрачность для активного индикатора */
+}
+
+.hrLine {
+    width: 90%;
+
+    height: 2px;
+    background-color: #7E623C;
+
+    margin-bottom: 14px;
+}
+
+.starBox {
+    width: 168px;
+    height: 25px;
+    display: flex;
+    gap: 6px;
+    margin-top: 13px;
+}
+
+.MobMode {
+    display: none;
+}
+
+.arrow {
+    
+    position: relative;
+    top: 38px;
+}
