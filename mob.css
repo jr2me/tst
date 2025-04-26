@@ -187,17 +187,66 @@
         background-color: red;
     }
 
-    .pcmode {
-        display: none;
-    }
 
-    .MobMode {
-        display: block;
-    }
     .reviews {
         justify-content: center;
     }
+
     .reviews-slider {
-            top: -494px;
+        top: -494px;
+        padding-left: 4px;
+    }
+
+    .review {
+        margin: 0;
+    }
+
+    .text-item h4 {
+        width: 201px;
+    }
+
+    footer {
+        top: -493px;
+        position: relative;
+    }
+    body {
+        height: 2000px;
+    }
+    .footCont {
+        flex-direction: column;
+        width: 553px;
+        max-width: 100%;
+        align-items: center;
+      margin: 0 auto;
+        gap: 40px;
+    }
+    .fc1 {
+        align-items: center;
+    }
+                .fc2 {
+                    align-items: center;
+                }
+                                        .fc3 {
+                                            align-items: center;
+                                        }
+}
+
+@media screen and (max-width: 518px) {
+    .arrow {
+        padding: 0;
+        font-size: 35px;
+        top: 53px;
+    }
+
+    .starBox img {
+        width: 22px;
+    }
+
+}
+
+@media screen and (max-width: 518px) {
+    .text-item h4 {
+        font-size: 18px;
+        width: 180px;
     }
 }

@@ -546,11 +546,14 @@ details {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 0;
+
     /* Отступ сверху и снизу */
     position: relative;
+    background: #e4d0b4;
     /* Позволяет стрелкам позиционироваться относительно контейнера */
 }
+
+
 
 .reviews {
     display: flex;
@@ -671,12 +674,75 @@ details {
     margin-top: 13px;
 }
 
-.MobMode {
-    display: none;
-}
+
 
 .arrow {
-    
+
     position: relative;
     top: 38px;
+}
+
+.footCont {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 76px;
+}
+
+.fc1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    width: 160px;
+    font-size: 32px;
+}
+
+.fc2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 360px;
+    min-height: 277px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fc3 {
+    display: flex;
+    flex-direction: column;
+    width: 205px;
+    min-height: 165px;
+    font-size: 20px;
+    gap: 12px;
+    font-weight: bold;
+}
+
+.hrLineW {
+    width: 90%;
+    height: 1px;
+    background-color: white;
+}
+
+.lok {
+    display: flex;
+    width: 174px;
+    gap: 42px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.fc2 p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #644b2c;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
 }
